@@ -1,4 +1,4 @@
-# Fix-AttributeError-ImageDraw-
+# Fix AttributeError ImageDraw in Python Crash Course on Coursera.
 In this repo, I will discuss how to solve this problem
 
 `AttributeError: 'ImageDraw' object has no attribute 'textbbox'` 
