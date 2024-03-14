@@ -1,11 +1,10 @@
 # Fix AttributeError ImageDraw in Python Crash Course on Coursera.
-In this repo, I will discuss how to solve this problem
 
-`AttributeError: 'ImageDraw' object has no attribute 'textbbox'` 
+  `AttributeError: 'ImageDraw' object has no attribute 'textbbox'` 
+  
 
-in Python Crash Course on Coursera.
+Firstly, this error occurs because of the version of  the WordCloud package.
 
-Firstly, this error occurs because of the Word Cloud version.
 The `ImageDraw.textsize()` method was deprecated in PIL version 9.2.0 and completely removed beginning with version 10.0.0 on 2023-07-01.
 
 The `ImageDraw.textbbox()` method was introduced in version 8.0.0 as a more robust solution.
